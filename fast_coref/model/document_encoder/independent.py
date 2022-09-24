@@ -1,6 +1,6 @@
 import torch
-from pytorch_utils.utils import get_sequence_mask
-from model.document_encoder.base_encoder import BaseDocEncoder
+from fast_coref.pytorch_utils.utils import get_sequence_mask
+from fast_coref.model.document_encoder.base_encoder import BaseDocEncoder
 
 from omegaconf import DictConfig
 from typing import Dict, List

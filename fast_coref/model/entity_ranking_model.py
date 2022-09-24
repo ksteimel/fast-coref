@@ -1,10 +1,10 @@
 import torch
 import torch.nn as nn
 
-from model.mention_proposal import MentionProposalModule
-from model.utils import get_gt_actions
-from model.memory.entity_memory import EntityMemory
-from model.memory.entity_memory_bounded import EntityMemoryBounded
+from fast_coref.model.mention_proposal import MentionProposalModule
+from fast_coref.model.utils import get_gt_actions
+from fast_coref.model.memory.entity_memory import EntityMemory
+from fast_coref.model.memory.entity_memory_bounded import EntityMemoryBounded
 
 from typing import Dict, List, Tuple
 from omegaconf import DictConfig

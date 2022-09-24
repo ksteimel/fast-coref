@@ -1,1 +1,1 @@
-from model.mention_proposal.mention_proposal_module import MentionProposalModule
+from fast_coref.model.mention_proposal.mention_proposal_module import MentionProposalModule

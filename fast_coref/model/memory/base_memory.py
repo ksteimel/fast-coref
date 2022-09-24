@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from pytorch_utils.modules import MLP
+from fast_coref.pytorch_utils.modules import MLP
 import math
 from omegaconf import DictConfig
 from typing import Dict, Tuple

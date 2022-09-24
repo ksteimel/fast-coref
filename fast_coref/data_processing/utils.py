@@ -2,7 +2,7 @@ import argparse
 import os
 import collections
 from os import path
-from data_processing.constants import MODEL_TO_MAX_LEN, MODEL_TO_MODEL_STR
+from fast_coref.data_processing.constants import MODEL_TO_MAX_LEN, MODEL_TO_MODEL_STR
 from transformers import LongformerTokenizerFast, AutoTokenizer
 
 

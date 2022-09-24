@@ -1,5 +1,5 @@
 import torch
-from data_processing.utils import split_into_segments, get_sentence_map
+from fast_coref.data_processing.utils import split_into_segments, get_sentence_map
 
 
 class DocumentState:

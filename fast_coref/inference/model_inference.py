@@ -1,8 +1,8 @@
 import torch
 from os import path
-from model.utils import action_sequences_to_clusters
-from model.entity_ranking_model import EntityRankingModel
-from inference.tokenize_doc import tokenize_and_segment_doc, basic_tokenize_doc
+from fast_coref.model.utils import action_sequences_to_clusters
+from fast_coref.model.entity_ranking_model import EntityRankingModel
+from fast_coref.inference.tokenize_doc import tokenize_and_segment_doc, basic_tokenize_doc
 from omegaconf import OmegaConf
 from transformers import AutoModel, AutoTokenizer
 

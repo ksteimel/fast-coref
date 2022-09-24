@@ -1,4 +1,4 @@
-from coref_utils.utils import get_mention_to_cluster_idx
+from fast_coref.coref_utils.utils import get_mention_to_cluster_idx
 
 
 def get_gt_actions(pred_mentions, document, mem_type_config):

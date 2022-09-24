@@ -1,1 +1,1 @@
-from model.document_encoder.independent import IndependentDocEncoder
+from fast_coref.model.document_encoder.independent import IndependentDocEncoder

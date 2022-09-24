@@ -1,6 +1,6 @@
 import torch
-from model.memory import BaseMemory
-from pytorch_utils.modules import MLP
+from fast_coref.model.memory import BaseMemory
+from fast_coref.pytorch_utils.modules import MLP
 import torch.nn as nn
 
 from omegaconf import DictConfig

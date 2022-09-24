@@ -1,10 +1,10 @@
 import torch
 import torch.nn as nn
 
-from model.document_encoder import IndependentDocEncoder
-from pytorch_utils.modules import MLP
+from fast_coref.model.document_encoder import IndependentDocEncoder
+from fast_coref.pytorch_utils.modules import MLP
 
-from model.mention_proposal.utils import sort_mentions
+from fast_coref.model.mention_proposal.utils import sort_mentions
 
 from typing import List, Dict, Tuple
 from torch import Tensor
